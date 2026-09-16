@@ -31,24 +31,19 @@ heroElem.append(heroDiv)
 
 let servicesElem = document.querySelector(".services")
 let servicesUl = document.createElement("ul")
-// let servicesLi = document.createElement("li")
-// let servicesLi = document.createElement.forEach(services => {
 
-
-// });
-// servicesUl.append(servicesLi)
-services.forEach(services => {
+services.forEach(service => {
 
     let servicesLi = document.createElement("li")
 
     let servicesImg = document.createElement("img")
-    servicesImg.src = services.illustration
+    servicesImg.src = service.illustration
     let servicesHeadline = document.createElement("h2")
-    servicesHeadline.textContent = services.headline
+    servicesHeadline.textContent = service.headline
     let servicesPara = document.createElement("p")
-    servicesPara.textContent = services.text
+    servicesPara.textContent = service.text
     let servicesLink = document.createElement("a")
-    servicesLink.textContent = services.linktext
+    servicesLink.textContent = service.linktext
     servicesLink.setAttribute("href", "#")
 
     servicesLi.append(servicesImg)
@@ -59,6 +54,8 @@ services.forEach(services => {
     servicesUl.append(servicesLi)
 });
 servicesElem.append(servicesUl)
+
+let sitesElem = document.querySelector(".sites")
 
 //eksempel på at udskrive alle overskrifter i services i konsollen:
 services.forEach(service => console.log(service.headline))

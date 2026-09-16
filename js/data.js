@@ -105,27 +105,27 @@ let footer = [
             {
                 headline: "Discover the Network",
                 links: [
-                    { link: "Where to shop", },
-                    { link: "Tour Guided", },
-                    { link: "Our Tours", },
-                    { link: "About Us", }
+                    { name: "Where to shop", },
+                    { name: "Tour Guided", },
+                    { name: "Our Tours", },
+                    { name: "About Us", }
                 ]
             },
             {
                 headline: "Become a Manager",
                 links: [
-                    { link: "Join your Pairing", },
-                    { link: "Offer your Service", },
-                    { link: "Are you a guide?", }
+                    { name: "Join your Pairing", },
+                    { name: "Offer your Service", },
+                    { name: "Are you a guide?", }
                 ]
             },
             {
                 headline: "Assistance",
                 links: [
-                    { link: "Support Center", },
-                    { link: "FAQs", },
-                    { link: "Cancallation Options", },
-                    { link: "Reliablity and Sequrity", }
+                    { name: "Support Center", },
+                    { name: "FAQs", },
+                    { name: "Cancallation Options", },
+                    { name: "Reliablity and Sequrity", }
                 ]
             }
         ],
